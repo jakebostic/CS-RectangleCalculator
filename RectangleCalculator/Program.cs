@@ -10,18 +10,21 @@ namespace RectangleCalculator
             Console.WriteLine();
 
             Console.Write("Enter length: ");
-            int length = Console.Read();
-            Console.Write("Enter width: ");
-            int width = Console.Read();
-            Console.WriteLine();
+            if (double.TryParse(Console.ReadLine(), out double length))
+            {
+                Console.Write("Enter width: ");
+                if (double.TryParse(Console.ReadLine(), out double width))
+                {
+                    double area = width * length;
+                    double per = 2 * width + 2 * length;
+                    Console.WriteLine($"\nArea: {area}");
+                    Console.WriteLine($"\nPerimeter: {per}");
+                }
 
-            double area = width * length;
-            double per = 2 * width + 2 * length;
-
-            Console.WriteLine($"\nArea: {area}");
-            Console.WriteLine($"\nPerimeter: {per}");
-            Console.Write("\nPress any key to exit...");
-            Console.ReadKey(true);
+                Console.Write("Press any key to exit...");
+                Console.ReadKey(true);
+            }
+            
         
         }
 
