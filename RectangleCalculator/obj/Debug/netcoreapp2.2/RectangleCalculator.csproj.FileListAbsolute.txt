@@ -1,0 +1,11 @@
+C:\repos\RectangleCalculator\RectangleCalculator\bin\Debug\netcoreapp2.2\RectangleCalculator.deps.json
+C:\repos\RectangleCalculator\RectangleCalculator\bin\Debug\netcoreapp2.2\RectangleCalculator.runtimeconfig.json
+C:\repos\RectangleCalculator\RectangleCalculator\bin\Debug\netcoreapp2.2\RectangleCalculator.runtimeconfig.dev.json
+C:\repos\RectangleCalculator\RectangleCalculator\bin\Debug\netcoreapp2.2\RectangleCalculator.dll
+C:\repos\RectangleCalculator\RectangleCalculator\bin\Debug\netcoreapp2.2\RectangleCalculator.pdb
+C:\repos\RectangleCalculator\RectangleCalculator\obj\Debug\netcoreapp2.2\RectangleCalculator.csprojAssemblyReference.cache
+C:\repos\RectangleCalculator\RectangleCalculator\obj\Debug\netcoreapp2.2\RectangleCalculator.csproj.CoreCompileInputs.cache
+C:\repos\RectangleCalculator\RectangleCalculator\obj\Debug\netcoreapp2.2\RectangleCalculator.AssemblyInfoInputs.cache
+C:\repos\RectangleCalculator\RectangleCalculator\obj\Debug\netcoreapp2.2\RectangleCalculator.AssemblyInfo.cs
+C:\repos\RectangleCalculator\RectangleCalculator\obj\Debug\netcoreapp2.2\RectangleCalculator.dll
+C:\repos\RectangleCalculator\RectangleCalculator\obj\Debug\netcoreapp2.2\RectangleCalculator.pdb
