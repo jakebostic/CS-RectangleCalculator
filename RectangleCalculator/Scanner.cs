@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace RectangleCalculator
@@ -8,12 +9,14 @@ namespace RectangleCalculator
     {
         string currentWord;
 
+
         public Scanner(string source) : base(source)
         {
-            readNextWord();
+            ReadNextWord();
         }
 
-        private void readNextWord()
+
+        private void ReadNextWord()
         {
             System.Text.StringBuilder sb = new StringBuilder();
             char nextChar;
@@ -36,15 +39,16 @@ namespace RectangleCalculator
                 currentWord = null;
         }
 
-        public bool hasNextDouble()
+        public bool HasNextDouble()
         {
             if (currentWord == null)
+            {
                 return false;
-            double dummy;
-            return double.TryParse(currentWord, out dummy);
+            }
+            return double.TryParse(currentWord, out double dummy);
         }
 
-        public double nextDouble()
+        public double NextDouble()
         {
             try
             {
@@ -52,7 +56,7 @@ namespace RectangleCalculator
             }
             finally
             {
-                readNextWord();
+                ReadNextWord();
             }
         }
 
