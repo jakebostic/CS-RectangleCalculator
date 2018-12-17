@@ -45,7 +45,7 @@ namespace RectangleCalculator
                 {
                     Console.WriteLine("Error! Invalid decimal value. Try again.");
                 }
-                Console.ReadLine();
+                Console.Read();
             }
             return d;
         }
