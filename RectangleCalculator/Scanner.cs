@@ -12,7 +12,7 @@ namespace RectangleCalculator
 
         public Scanner(string source) : base(source)
         {
-            ReadNextWord();
+            ReadNextWord(); 
         }
 
 
