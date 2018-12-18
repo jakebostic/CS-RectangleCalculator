@@ -32,14 +32,14 @@ namespace RectangleCalculator
         private static double GetDouble(Scanner sc, String prompt)
         {
             double d = 0;
-            bool isValid = false;
+            bool isValid = true;
             while (!isValid)
             {
                 Console.Write(prompt);
                 if (sc.HasNextDouble())
                 {
                     d = sc.NextDouble();
-                    isValid = true;
+                    isValid = false;
                 }
                 else
                 {
