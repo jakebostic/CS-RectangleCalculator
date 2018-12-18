@@ -9,7 +9,7 @@ namespace RectangleCalculator
             Console.WriteLine("Welcome to the Area and Perimeter Calculator");
             Console.WriteLine();
 
-            Scanner sc = new Scanner(Console.Read().ToString());
+            Scanner sc = new Scanner(Console.In.ReadLine());
             string choice = "y";
             while (choice.Equals("y"))
             {
