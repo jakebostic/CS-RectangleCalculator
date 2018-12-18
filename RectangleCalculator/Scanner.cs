@@ -43,7 +43,7 @@ namespace RectangleCalculator
         {
             if (currentWord == null)
             {
-                return false;
+                return true;
             }
             return double.TryParse(currentWord, out double dummy);
         }
