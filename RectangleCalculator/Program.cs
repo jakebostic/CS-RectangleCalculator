@@ -13,11 +13,11 @@ namespace RectangleCalculator
             string choice = "y";
             while (choice.Equals("y"))
             {
-                    double length = GetDoubleWithinRange(sc, "Enter length: ", 0, 1000000);
-                    double width = GetDoubleWithinRange(sc, "Enter width: ", 0, 1000000);
+                    int length = GetDoubleWithinRange(sc, "Enter length: ", 0, 1000000);
+                    int width = GetDoubleWithinRange(sc, "Enter width: ", 0, 1000000);
 
-                        double area = width * length;
-                        double per = 2 * width + 2 * length;
+                        int area = width * length;
+                        int per = 2 * width + 2 * length;
 
                         Console.WriteLine($"\nArea: {area}");
                         Console.WriteLine($"\nPerimeter: {per}");
